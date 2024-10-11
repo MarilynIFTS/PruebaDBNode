@@ -1,0 +1,21 @@
+{
+  "name": "pruebabdnode",
+  "version": "0.0.1",
+  "description": "Prueba de Base de datos y Node",
+  "main": "index.js",
+  "scripts": {
+    "console": "echo 'Hoho'",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "Marilyn",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.3"
+  }
+}
